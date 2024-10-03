@@ -1,4 +1,4 @@
-module github.com/infisical/go-sdk
+module github.com/mscno/infisical-go-sdk
 
 go 1.21
 
