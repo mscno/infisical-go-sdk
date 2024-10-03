@@ -22,6 +22,8 @@ type InfisicalClientInterface interface {
 	Auth() AuthInterface
 }
 
+var _ InfisicalClientInterface = (*InfisicalClient)(nil)
+
 type Config struct {
 	SiteUrl   string
 	UserAgent string // optional, we set this when instantiating the client in the k8s operator / cli.
@@ -39,7 +41,7 @@ func (c *InfisicalClient) setAccessToken(accessToken string, authMethod util.Aut
 	c.httpClient.SetAuthToken(accessToken)
 }
 
-func NewInfisicalClient(config Config) InfisicalClientInterface {
+func NewInfisicalClient(config Config) *InfisicalClient {
 	client := &InfisicalClient{}
 
 	client.UpdateConfiguration(config) // set httpClient and config
