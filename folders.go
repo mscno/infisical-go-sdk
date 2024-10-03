@@ -1,8 +1,8 @@
 package infisical
 
 import (
-	api "github.com/infisical/go-sdk/packages/api/folders"
-	"github.com/infisical/go-sdk/packages/models"
+	api "github.com/mscno/infisical-go-sdk/packages/api/folders"
+	"github.com/mscno/infisical-go-sdk/packages/models"
 )
 
 type ListFoldersOptions = api.ListFoldersV1Request

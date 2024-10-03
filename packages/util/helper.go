@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/go-resty/resty/v2"
-	"github.com/infisical/go-sdk/packages/models"
+	"github.com/mscno/infisical-go-sdk/packages/models"
 )
 
 func AppendAPIEndpoint(siteUrl string) string {

@@ -3,8 +3,8 @@ package infisical
 import (
 	"os"
 
-	api "github.com/infisical/go-sdk/packages/api/auth"
-	"github.com/infisical/go-sdk/packages/util"
+	api "github.com/mscno/infisical-go-sdk/packages/api/auth"
+	"github.com/mscno/infisical-go-sdk/packages/util"
 )
 
 type KubernetesAuthLoginOptions struct {

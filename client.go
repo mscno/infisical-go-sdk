@@ -2,7 +2,7 @@ package infisical
 
 import (
 	"github.com/go-resty/resty/v2"
-	"github.com/infisical/go-sdk/packages/util"
+	"github.com/mscno/infisical-go-sdk/packages/util"
 )
 
 type InfisicalClient struct {
