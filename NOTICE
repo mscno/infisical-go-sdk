@@ -1,0 +1,19 @@
+NOTICE
+
+This project is a fork of the original project "go-sdk" by Infisical, available at https://github.com/infisical/go-sdk.
+
+Purpose of the Fork:
+--------------------
+The primary motivation for this fork is to remove unnecessary dependencies on cloud provider authentication libraries, simplifying the SDK for use cases that do not require such integrations.
+
+Attribution:
+------------
+The original code and project structure were created by the developers of Infisical. This fork retains portions of the original codebase and builds upon it.
+
+Original Repository:
+--------------------
+https://github.com/infisical/go-sdk
+
+License:
+--------
+This project and any modifications made are licensed under the Apache License 2.0. For details, please refer to the LICENSE file.
